@@ -1,0 +1,74 @@
+.tarjeta_presentacion {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: rgb(95, 1, 1);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.tarjeta_presentacion .transicion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #310316;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.tarjeta_presentacion:hover .transicion {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 4px solid #b13838;
+}
+
+.tarjeta_presentacion .transicion h2{
+    font-size: 6em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.tarjeta_presentacion:hover .transicion h2 {
+    color: #b13838;
+    font-size: 2em;
+}
+
+.video_fondo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video_fondo video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.titulo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-size: 100px;
+    color: white;
+    mix-blend-mode: multiply;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(95, 1, 1);
+}
