@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio de Cajas</title>
+        <!--comienzo hoja de estilo Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--fin hoja de estilo Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="estilo_tonico.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <!--prompt cancelado
+        <script type="text/javascript" src="js/javascript.js"></script>
+        -->
+    </head>
+    <body>
+        <header>
+            <div id="Tonico">
+                <h1>Tonico</h1>
+                <!--google fonts-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+                <!--google fonts-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+            </div>
+            <nav id="botones">
+                <ul><li><a href="#Nosotros">Nosotros</a></li><li><a href="#Productos">Productos</a></li><li><a href="#Sucursales">Sucursales</a></li><li><a href="#Conciencia">Conciencia</a></li><li><a href="#Pedidos">Pedidos</a></li><li><a href="#Contactos">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+        <section id="Nosotros">
+            <div id="caja1">
+                <h2>UN POQUITO DE "TONICO"</h2>
+                <script type="text/javascript">
+                    document.write ('<p class="respuesta_usuario"> Bienvenid@ ' + usuario +  ', te enseñamos sobre nosotros.</p>')</script>
+                <p>COSMÉTICA BASADA EN ELEMENTOS NATURALES, QUE BUSCA
+                    ACERCAR SUS BENEFICIOS AL BIENESTAR DIARIO.
+                    LO SIMPLE Y LA BELLEZA DE LOS PEQUEÑOS ACTOS COTIDIANOS, EL DIA A DIA TAMBEIN MARCA UN CAMBIO.
+                </p>
+                <p> <strong> "TONICO" </strong>TE ACOMPAÑA EN CADA MOMENTO, NOSOTROS SELECCIONAMOS MATERIAS PRIMAS
+                    DE ORIGEN BOTÁNICO Y AROMAS NATURALES, NO HACEMOS TESTEOS EN ANIMALES, NUESTRA META ADEMÁS ES GENERAR CONCIENCIA CON EL AMBIENTE Y LOS SERES QUE LO HABITAN.
+                    DESDE LOS INICIOS DE "TONICO", EN EL AÑO 2020, NOS PROPUSIMOS OFRECER COSMÉTICA
+                    NATURAL CON UNA EXPERIENCIA CONFORTABLE PARA QUIENES NOS ELIGEN, OBVIAMENTE CON EL RESPALDO QUE NUESTROS PRODUCTOS MARCAN UNA DIFERENCIA.
+                </p>
+             </div>
+        </section>
+        <section id="Productos">
+            <div id="imagenes_productos">
+                <div class="container-fluid" id="imagenes">
+                  <div class="row" id="modulo_imagenes">
+                      <div class="col-lg-12 col-12" id="col1"><h2>PRODUCTOS</h2>
+                        <!--carousel bootstrap-->
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imagenes/accesorios_bootstrap.jpg" class="d-block w-100 ajustar_img_bootstrap" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="estilo_img_2">ACCESORIOS</h5>
+                                  <p class="estilo_img2">CONTAMOS CON TOD TIPO DE ACCESORIOS PARA LA CORRECTA IMPLEMENTACIONDE NUESTROS PRODUCTOS.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/frascosmaschicos_bootstrap.jpg" class="d-block w-100 ajustar_img_bootstrap" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="estilo_img_2">ACEITES</h5>
+                                  <p class="estilo_img2">POSEEN PROPIEDADES ANALGESICAS, CALMANTES Y ANTI-INFLAMATORIAS.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/jabones_bootstrap.jpg" class="d-block w-100 ajustar_img_bootstrap" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="estilo_img_2">JABONES</h5>
+                                  <p class="estilo_img2">ESTAN ELABORADOS CON INGREDIENTES NATURALES Y ECOLOGICOS, CUIDAN Y LIMPIAN TU PIEL.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                    <!--fin carousel bootstrap-->
+                  </div>
+                </div>
+            </div>
+            <div id="caja2">
+            <h2>CREMAS</h2>
+            <a onmouseover="cambiarimg('cremas')" onmouseout="salirimg('cremas')"><img src="imagenes/cremas.jpg" class="ajustar_img_cremas"></a></div>
+            <div id="caja3">
+                <h2>SERUM</h2>
+            <a onmouseover="cambiarimg('aceites')" onmouseout="salirimg('aceites')"> <img src="imagenes/serum.jpg" class="ajustar_img_serum"></a>
+            </div>
+            <div id="caja4">
+                <h2>SOLIDOS</h2>
+            <a onmouseover="cambiarimg('jabones')" onmouseout="salirimg('jabones')"><img src="imagenes/jabones.jpg" class="ajustar_img_jabones"></a>
+            </div>
+            <div id="cremas">
+                <p>NUESTRAS CREMAS ESTÁN CREADAS 100% CON ELEMENTOS NATURALES CON UNA SELECCION DE PRIMERA CALIDAD, PODES ENCONTRARLAS DE DIFERENTES COMPOSICIONES, PARA DARTE UNA SENSACION REFRESCANTE A TU PIEL.</p>
+                <script type="text/javascript">
+                    document.write ('<p class="respuesta_usuario">¿Conoces nuestros productos?' + productos + '. Te mostramos que tenemos para que pruebes </p>')
+                </script>
+            </div>
+            <div id="aceites"> 
+                <p>EL SERUM SE TRATA DE UN SUERO CON APROXIMADAMENTE EL DOBLE DE CONCENTRACIÓN DE ACTIVO QUE UNA CREMA. EN CONCLUSIÓN: LOS RESULTADOS SE MULTIPLICAN Y SE HACEN VISIBLES EN MENOS TIEMPO. ESTO NO QUIERE DECIR QUE UNA SEA MENOS O MAS EFECTIVA.</p>
+            </div>
+            <div id="jabones">
+                 <p>LOS JABONES SON PRODUCTOS LIBRES DE ENVASE, AL SER SÓLIDOS, NO NECESITAN EMPAQUE DE NINGÚN TIPO, POR LO QUE EL IMPACTO      AMBIENTAL SE REDUCE NOTABLEMENTE EN CUANTO A CONTAMINACIÓN POR DESPERDICIOS.
+                MAYOR DURACIÓN, YA QUE APLICAS EL PRODUCTO DIRECTAMENTE EN TU CABELLO SIN QUE HAYA RIESGO DE DERRAME. 
+                AHORRAS AGUA EN SU PRODUCCIÓN, DEBIDO A QUE LA CANTIDAD DE AGUA QUE CONTIENE ES MUCHO MENOR A LA DE LOS COSMÉTICOS CONVENCIONALES O EN ENVASE.
+            </p></div>
+            
+        </section>
+        <section id="Sucursales">
+            <div id="caja5">
+                <h2>CABA</h2>
+                <a href="https://www.google.com.ar/maps/place/Plaza+Serrano/@-34.5890105,-58.4316412,18z/data=!4m5!3m4!1s0x95bcb588f4af5d17:0x560fe6ff3f099abf!8m2!3d-34.5887764!4d-58.4302089" target="new"><img src="imagenes/tiendacaba.jpg" class="ajustar_img_caba"></a>
+                <p>EN EL CENTRO DE PALERMO, A 2 CUADRAS DE LA PLAZA PRINCIPAL, SE ENCUENTRA NUESTRO PRIMER LOCAL, EN EL AÑO DE LA PANDEMIA NOS ARRIESGAMOS A SALIR A LA CALLE</p>
+                <script type="text/javascript">
+                    document.write ('<p class="respuesta_usuario">Como elegiste ' + sucursales + ', te contamos donde podes encontrarnos.</p>')
+                </script>
+            </div>
+            <div id="caja6">
+                <H2>GRAN BS AS</H2>
+                <a href="https://www.google.com.ar/maps/place/Berazategui+centro/@-34.7640919,-58.2053213,15z/data=!4m15!1m8!2m7!1sberazategui+centro!3m5!1sberazategui+centro!2s-34.589218,+-58.430906!4m2!1d-58.4309063!2d-34.589218!3m5!1s0x95a32f1029b21ec7:0xcd3bcc3bd993eaca!8m2!3d-34.7626288!4d-58.2071345!15sChJiZXJhemF0ZWd1aSBjZW50cm-SARJhcGFydG1lbnRfYnVpbGRpbmc"></a><img src="imagenes/tiendagranbsas.jpj.jpg" class="ajustar_img_bsas"></a>
+                <P>DIMOS UN PASITO MAS ADELANTE Y COMO SI FUERA CON NUESTRO PRIMER LOCAL, ABRIMOS OTRO EN QUILMES EN ZONA SUR DE GRAN BS AS</P>
+            </div>
+        </section>
+        <section id="Conciencia">
+            <div id="caja7">
+                <h2>APRENDIZAJE</h2>
+                <script type="text/javascript">
+                    document.write ('<p class="respuesta_usuario">' + usuario + '¿Estas enterado del impacto? ' + conciencia + '</p>')
+                </script>
+                <P>CADA VEZ SON MÁS LAS PERSONAS QUE OPTAN POR INCORPORAR LA COSMÉTICA NATURAL A SUS RUTINAS DE BELLEZA. EN ALGUNOS CASOS, DEBIDO A LA INTOLERANCIA A CIERTAS SUSTANCIAS QUÍMICAS QUE LAS OBLIGAN A
+                    BUSCAR OPCIONES MÁS SALUDABLES; EN OTROS, POR UNA CUESTIÓN DE CONCIENCIA QUE LAS LLEVA A EXIGIR UN COMPROMISO CON EL MEDIO AMBIENTE, LA ECOLOGÍA Y EL CONSUMO RESPONSABLE. A CONTINUACIÓN, REPASAMOS ALGUNAS DE LAS RAZONES POR LAS QUE PASARSE A LA COSMÉTICA NATURAL.
+                    <P> 1. PORQUE NO CONTIENEN SUSTANCIAS QUÍMICAS QUE PUEDAN DAÑAR EL ORGANISMO: LOS COSMÉTICOS CONVENCIONALES CONTIENEN SUSTANCIAS (COMO SULFATOS, SILICONAS O PARAFINAS) Y FRAGANCIAS ARTIFICIALES QUE PUEDEN PROVOCAR IRRITACIÓN, ALERGIAS Y EFECTOS TÓXICOS.</P>
+                    <P>2. PORQUE SE ADAPTAN MEJOR AL ORGANISMO: LOS COSMÉTICOS NATURALES CONTIENEN ÁCIDOS GRASOS MUY SIMILARES A LOS DE LA PIEL, POR LO QUE LA REGENERAN, CUIDAN Y PROTEGEN DE UNA FORMA MÁS EFICAZ. POR ESTE MISMO MOTIVO, SE ADAPTAN MEJOR A CUALQUIER TIPO DE PIEL SIN GENERAR IRRITACIÓN O ALERGIAS.</P> 
+                    <P> 3. PORQUE RESPETAN Y PROTEGEN EL MEDIOAMBIENTE: AL OPTAR POR COSMÉTICOS ECOLÓGICOS SE AYUDA A MINIMIZAR EL IMPACTO MEDIOAMBIENTAL, YA QUE ESTOS PRODUCTOS SUELEN ELABORARSE SIGUIENDO NORMAS DE FABRICACIÓN SOSTENIBLE, UTILIZANDO ENVASES RECICLABLES, SIN GENERAR RESIDUOS TÓXICOS NI TESTEOS EN ANIMALES.</P>
+                    <P> 4. INCLUYEN MAYOR CANTIDAD DE PRINCIPIOS ACTIVOS: A DIFERENCIA DE LOS PRODUCTOS TRADICIONALES QUE POR LO GENERAL UTILIZAN INGREDIENTES “DE RELLENO” QUE NO CUMPLEN NINGUNA FUNCIÓN BENEFICIOSA PARA LA PIEL, LOS COSMÉTICOS NATURALES ESTÁN COMPUESTOS POR INGREDIENTES 100% DEDICADOS A LA FUNCIÓN PARA LA CUAL FUERON INCLUIDOS. POR ESTE MOTIVO, SUS RESULTADOS SUELEN SER MÁS RÁPIDOS Y EFICACES.</P>
+            </div>
+        </section>
+        <section id="Pedidos">
+            <div class="container-fluid" id="Pedidos1">
+                <div class="row" id="modulo_formulario_2">
+                    <div class="col-lg-6 col-sm-5" id="col4"><h2>PEDIDOS</h2>
+                    <p><strong>PODES REALIZAR LA COMPRA DE NUESTROS PRODUCTOS AL POR MENOR Y AL POR MAYOR, LO DECIDIS VOS.</strong></p>
+                        <form>
+                            <input type="text" name="text" placeholder="Producto" class="form-control estilo_formularios" required>
+                            <input type="text" name="text" placeholder="Especificación del producto" class="form-control estilo_formularios">
+                            <input type="number" name="numero" placeholder="Cantidad" class="form-control estilo_formularios" required>
+                            <input type="email" name="email" placeholder="Correo Electrónico" class="form-control estilo_formularios" required>
+                            <input type="submit" button type="button" class="btn btn-primary boton_sub"></button>
+                        </form>
+                    <p><strong>DEJA TU PEDIDO Y A LA BREVEDAD NOS PONDREMOS EN CONTACTO CON VOS.</strong></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-7" id="col5"><h2>DEJANOS TU CONSULTA</h2>
+                        <form>
+                            <input type="text" name="nombre" placeholder="Nombre" class="form-control estilo_formularios" required> 
+                            <input type="email" name="email" placeholder="Correo Electrónico" class="form-control estilo_formularios" required>
+                            <input type="text" name="telefono" placeholder="N° de Telefono" class="form-control estilo_formularios">
+                            <textarea placeholder="Escribinos" class="form-control estilo_formularios" rows="4" required></textarea>
+                            <div class="d-grid gap-2">
+                            <input type="submit" button type="button" class="btn btn-primary boton_sub"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+        <footer>
+            <div id="caja_footer">
+            <p>
+                <h2>ENCONTRANOS EN LAS SIGUIENTE REDES</h2>
+            </p>
+            <script type="text/javascript">
+                document.write ('<h3 class="h3">' + usuario + ', acá podes encontrarnos o comunicarte con nosotros. ¿Nos conocias? ' + redes + ', entonces podes seguirnos o regalarnos like´s en nuestras redes. </h3>')
+            </script>
+            <div id="Contactos">
+                <p><a href="mailto:tonico_cosmetica@hotmail.com" class="icono_correo_data"><img src="imagenes/icono_correo.ico" class="icono_correo"> tonico_cosmetica@hotmail.com </a></p>
+            </div>
+            <nav id="redes">
+               <a href="https://www.instagram.com/tonico_1985/" target="new"> <img src="imagenes/icono_inst_chico.ico" class="ajustar_iconos"></a><a href="https://web.whatsapp.com/" target="new"><img src="imagenes/icono_ws_chico.ico" class="ajustar_iconos"></a><a href="" target="new"><img src="imagenes/incono_face_chico.ico" class="ajustar_iconos"></a><a href="https://ar.pinterest.com/tonicocosmetica/_saved/" class="ajustar_iconos" target="new"><img src="imagenes/icono_pinterest.ico"></a>
+            </nav>
+        </div>
+        </footer>
+        <script type="text/javascript" src="js/jsuni12.js"></script>
+        <!--comienzo script bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--fin script bootstrap-->
+    </body>
+</html>
